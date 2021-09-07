@@ -46,7 +46,7 @@ ul {
   padding: 150px 50px;
 }
 
-.content:hover {
+.box:hover .content {
   transform: translate(-50%, -50%) rotateX(180deg);
 }
 
@@ -66,21 +66,18 @@ ul {
 }
 
 .item {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   align-items: center;
   display: flex;
   margin: 5px;
   justify-content: center;
-  transition: all 0.7s ease;
+  transition: all 0.7s ease
 }
 
 .item:hover {
-  width: 30px;
-  height: 30px;
   border-radius: 50%;
+  justify-content: center;
   background-color: red;
   align-items: center;
-  display: block;
-  justify-content: center;
 }
